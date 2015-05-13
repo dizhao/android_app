@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="d">#F50057</color>
+    <color name="b">#C51162</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tv">#000000</color>
+    <color name="backgroundTopTitle">#FF80AB</color>
+    <color name="backgroundBottomBox">#E39421</color>
+</resources>
