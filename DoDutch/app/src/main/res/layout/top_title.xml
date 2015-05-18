@@ -10,7 +10,7 @@
         android:text="@string/tvTopTitle"
         android:textSize="@dimen/abc_text_size_body_2_material"
         android:layout_alignParentLeft="true"
-        android:textColor="@color/tv"
+        android:textColor="@color/black"
         android:layout_centerVertical="true"
         android:paddingLeft="10dp"
         />

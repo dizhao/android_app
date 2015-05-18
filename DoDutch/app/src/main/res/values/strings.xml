@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DoDutch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvTopTitle">Do Dutch</string>
+    <string name="tvWelcome">Welcome to the do dutch</string>
+    
+    <string name="appGridPayoutAdd">消费记录</string>
+    <string name="appGridPayoutManage">消费查询</string>
+    <string name="appGridStatisticsManage">统计管理</string>
+    <string name="appGridAccountBookManage">账本管理</string>
+    <string name="appGridCategoryManage">类别管理</string>
+    <string name="appGridUserManage">人员管理</string>
+</resources>
