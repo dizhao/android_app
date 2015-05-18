@@ -4,8 +4,8 @@
     android:background="@color/backgroundBottomBox">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imageButton">
+        android:layout_height="68dp"
+        android:id="@+id/layBottomBar">
        <ImageView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
@@ -32,5 +32,19 @@
 
 
         </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/layBottomListViewBox"
+        android:layout_below="@id/layBottomBar"
+        >
+
+        <ListView
+            android:id="@+id/lvSlideList"
+            style="@style/StyleListView"/>
+
+    </LinearLayout>
+
 
 </RelativeLayout>

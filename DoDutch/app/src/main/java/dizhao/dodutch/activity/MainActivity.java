@@ -40,6 +40,7 @@ public class MainActivity extends ActivityFrame {
         InitView();
        // InitListener();
         BindData();
+        CreateSlideMenu(R.array.SlideMenuActivityName);
 
     }
 
