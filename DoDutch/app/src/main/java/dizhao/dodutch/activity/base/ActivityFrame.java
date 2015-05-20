@@ -1,6 +1,5 @@
 package dizhao.dodutch.activity.base;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -40,10 +39,10 @@ public class ActivityFrame extends ActivityBase {
         for (int i = 0; i <_MenuItemArray.length;i++)
         {
             SlideMenuItem _Item = new SlideMenuItem(i,_MenuItemArray[i]);
-            m_SlideMenuView.Add(_Item);
+            m_SlideMenuView.add(_Item);
         }
 
-        m_SlideMenuView.BindList();
+        m_SlideMenuView.bindList();
     }
 }
 

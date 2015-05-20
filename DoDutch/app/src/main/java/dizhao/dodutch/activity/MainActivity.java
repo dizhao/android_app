@@ -4,14 +4,18 @@ package dizhao.dodutch.activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import dizhao.dodutch.R;
 import dizhao.dodutch.activity.base.ActivityFrame;
 import dizhao.dodutch.adapter.AdapterAppGrid;
+import dizhao.dodutch.controls.SlideMenuItem;
+import dizhao.dodutch.controls.SlideMenuView;
 
 
-public class MainActivity extends ActivityFrame {
+public class MainActivity extends ActivityFrame implements SlideMenuView.OnSlideMenuListener {
 
     private GridView gvAppGrid ;
     private AdapterAppGrid mAdapterAppGrid ;
@@ -65,5 +69,12 @@ public class MainActivity extends ActivityFrame {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    @Override
+    public void onSlideMenuItemClick(View p_View, SlideMenuItem p_SlideMenuItem) {
+        super.ShowMsg(p_SlideMenuItem.getTitle());
+      //  Toast.makeText(this,p_SlideMenuItem.getTitle(),Toast.LENGTH_SHORT).show();
     }
 }
